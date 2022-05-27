@@ -1,0 +1,36 @@
+.page-header {
+    margin: -43px 0 48px;
+    padding: 48px 15px 8px;
+}
+.bg-secondary {
+    background-color: #46c6ce!important;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 800 !important;
+}
+/* ///////////////////////// our services start ////////////////////////////////////////////// */
+.text-secondary {
+    color: #46c6ce!important;
+}
+.text-primary {
+    color: #194376!important;
+}
+.bg-light {
+    background-color: #F3F6FF!important;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+@media (max-width: 1200px){
+ h4 {
+    font-size: calc(1.275rem + .3vw);
+}
+}
+/* /////////////////////////////// testimonial start ///////////////////////////////////////////// */
+.bg-white {
+    background-color: #fff!important;
+}
+
+

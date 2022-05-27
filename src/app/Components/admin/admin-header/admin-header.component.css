@@ -1,0 +1,65 @@
+/* /////// header start ////////////////////////////////////// */
+.bg-primary {
+    background-color: #194376!important;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav1 a:hover{
+    text-decoration: underline;
+}
+.text-secondary {
+    color: #46c6ce!important;
+}
+.text-primary {
+    color: #194376!important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {
+    color: #46c6ce;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 8px 15px;
+    /* color: #757575; */
+    font-weight: 600;
+    outline: 0;
+}
+.nav-bar::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 52%;
+    top: 0;
+    left: 0;
+    background: #194376;
+}
+h1{
+    font-weight: 800!important;
+}
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.active{
+    color: #46c6ce;
+}
+.dropdown-item.active, .dropdown-item:active {
+    /* color: #fff; */
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    box-shadow: 0 0 0 0.1rem;
+    color: #F39C12;
+}
